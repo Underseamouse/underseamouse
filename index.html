@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+<body>
+
+<h2 id="start">
+
+    PRESS START
+</h2>
+
+
+    <h2 class="over" id="over">
+        GAME OVER
+    </h2>
+    <h1 class="front">
+        <!-- GAME OVER -->
+    </h1>
+    <style>
+    body{
+        background-color: #000000;
+        font-family: 'Press Start 2P', cursive;
+        
+    }
+   
+    .over{
+        left: 43%;
+        opacity: 0;
+    }
+    
+    h2{
+        color: white;
+        top: 47%;
+        left:42%;
+        position: absolute;
+    }
+    /* @keyframes start{
+    0%,100%{
+        opacity: 1;
+        transition: 1ms;
+    }
+    50%{
+        opacity: 0;
+        transition: 1ms;
+    }
+
+} */
+
+    
+    
+    
+    
+    </style>
+
+    <script>
+    var start = document.getElementById("start");
+    setInterval(function(){ start.style.opacity =0; }, 600);
+    setInterval(function(){ start.style.opacity =1; }, 1200);
+    
+    var over = document.getElementById("over")
+    document.addEventListener('keypress', function (e) {
+    var key = e.which || e.keyCode;
+    if (key === 13) { 
+    start.style.display = "none"; 
+    over.style.opacity = 1;   
+    }
+});
+
+        
+       
+    
+    </script>
+</body>
+</html>
