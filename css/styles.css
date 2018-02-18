@@ -1,0 +1,303 @@
+
+::selection {
+    background-color: white;
+    color: black;
+  }
+          
+  /* Body & background effect */
+   /* Body & background effect */
+    /* Body & background effect */
+  
+  html,
+  body {
+    height: 100%;
+  }    
+      body{
+          background: -webkit-radial-gradient(#113b11, #062006);
+          background: radial-gradient(#0f310f, #010a01);
+          font-weight: 400;
+          overflow: hidden;
+          padding: 30px 0 0 30px;
+          text-align: center;
+          font-family: 'Press Start 2P', cursive;
+          
+      }
+     
+        .overlay {
+            background-image: -webkit-linear-gradient(transparent 0%, rgba(10, 16, 10, 0.5) 50%);
+            background-image: linear-gradient(transparent 0%, rgba(10, 16, 10, 0.5) 50%);
+            background-size: 1000px 2px;
+            bottom: 0;
+            content: '';
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            
+        }
+/* Body & background effect */
+   /* Body & background effect */
+    /* Body & background effect */
+
+
+  
+      #playername{
+          background: none;
+          border: white solid 2px;
+          padding: 7px;
+          color: white;
+          font-family: 'Press Start 2P', cursive;
+          font-size: 20px;
+          top: 27%;
+          left:41%;
+          position: absolute;
+          width: 250px;
+          outline: none;
+          text-transform: uppercase;
+          text-align: center;
+  
+      }
+      
+      /* Write your name and Game Over */
+      #name{
+          color: white; 
+          top: 17%;
+          text-align: center;
+      }
+      
+
+
+
+      /* Game Over */
+
+      #over{
+          left: 42%;
+          color: white;
+          top: 47%;
+          position: absolute;
+          opacity: 0;
+          text-align: center;
+          
+      }
+
+
+      
+      
+      #start{
+          color: white;
+          top: 47%;
+          left:41%;
+          position: absolute;
+      }
+
+
+      
+     /* May the force be with you */
+      #force{
+          top: 90%;
+          position: absolute;
+          color: white;
+          left: 42%;
+          font-size: 10px;
+      }
+  
+      
+      
+
+
+
+
+.word {
+    bottom: 0;
+    color: rgba(255, 255, 255, 0);
+    height: 2.5em;
+    left: 0;
+    line-height: 2.5em;
+    margin: auto;
+    right: 0;
+    position: absolute;
+    top: 0
+  }
+  
+
+  
+  .word .done {
+    color: #fff;
+
+  } 
+
+  
+
+
+
+    .text {
+  font-weight: 100;
+  font-size: 28px;
+  color: #fafafa;
+}
+
+
+
+
+
+
+@keyframes flicker {
+    0% {
+      opacity: 0.47;
+    }
+    5% {
+      opacity: 0.54;
+    }
+    10% {
+      opacity: 0.43;
+    }
+    15% {
+      opacity: 1;
+    }
+    20% {
+      opacity: 0.38;
+    }
+    25% {
+      opacity: 0.93;
+    }
+    30% {
+      opacity: 0.65;
+    }
+    35% {
+      opacity: 0.67;
+    }
+    40% {
+      opacity: 0.46;
+    }
+    45% {
+      opacity: 0.84;
+    }
+    50% {
+      opacity: 0.96;
+    }
+    55% {
+      opacity: 0.48;
+    }
+    60% {
+      opacity: 0.40;
+    }
+    65% {
+      opacity: 0.91;
+    }
+    70% {
+      opacity: 0.63;
+    }
+    75% {
+      opacity: 0.47;
+    }
+    80% {
+      opacity: 0.71;
+    }
+    85% {
+      opacity: 0.7;
+    }
+    90% {
+      opacity: 0.7;
+    }
+    95% {
+      opacity: 0.56;
+    }
+    100% {
+      opacity: 0.44;
+    }
+  }
+  @keyframes textShadow {
+    0% {
+      text-shadow: 0.43px 0 1px rgba(40, 245, 51, 0.5), -0.4389924193300864px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    5% {
+      text-shadow: 2.79px 0 1px rgba(40, 245, 51, 0.5), -2.7928974010788217px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    10% {
+      text-shadow: 0.029px 0 1px rgba(40, 245, 51, 0.5), -0.02956275843481219px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    15% {
+      text-shadow: 0.406px 0 1px rgba(40, 245, 51, 0.5), -0.40218538552878136px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    20% {
+      text-shadow: 3.4px 0 1px rgba(40, 245, 51, 0.5), -3.4794037899852017px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    25% {
+      text-shadow: 1.6px 0 1px rgba(40, 245, 51, 0.5), -1.6125630401149584px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    30% {
+      text-shadow: 0.7px 0 1px rgba(40, 245, 51, 0.5), -0.7015590085143956px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    35% {
+      text-shadow: 3.8px 0 1px rgba(40, 245, 51, 0.5), -3.896914047650351px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    40% {
+      text-shadow: 3.8px 0 1px rgba(40, 245, 51, 0.5), -3.870905614848819px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    45% {
+      text-shadow: 2.2px 0 1px rgba(40, 245, 51, 0.5), -2.231056963361899px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    50% {
+      text-shadow: 0.08px 0 1px rgba(40, 245, 51, 0.5), -0.08084290417898504px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    55% {
+      text-shadow: 2.37px 0 1px rgba(40, 245, 51, 0.5), -2.3758461067427543px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    60% {
+      text-shadow: 2.20px 0 1px rgba(40, 245, 51, 0.5), -2.202193051050636px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    65% {
+      text-shadow: 2.86px 0 1px rgba(40, 245, 51, 0.5), -2.8638780614874975px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    70% {
+      text-shadow: 0.48px 0 1px rgba(40, 245, 51, 0.5), -0.48874025155497314px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    75% {
+      text-shadow: 1.89px 0 1px rgba(40, 245, 51, 0.5), -1.8948491305757957px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    80% {
+      text-shadow: 0.087px 0 1px rgba(40, 245, 51, 0.5), -0.0833037308038857px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    85% {
+      text-shadow: 0.097px 0 1px rgba(40, 245, 51, 0.5), -0.09769827255241735px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    90% {
+      text-shadow: 3.443339761481782px 0 1px rgba(40, 245, 51, 0.5), -3.443339761481782px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    95% {
+      text-shadow: 2.18px 0 1px rgba(40, 245, 51, 0.5), -2.1841838852799786px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    100% {
+      text-shadow: 2.62px 0 1px  rgba(40, 245, 51, 0.5), -2.6208764473832513px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+  }
+  .crt::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(18, 16, 16, 0.1);
+    opacity: 0;
+    z-index: 2;
+    pointer-events: none;
+    animation: flicker 0.15s infinite;
+  }
+  .crt::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+  }
+  .crt {
+    animation: textShadow .6s infinite;
+  }
